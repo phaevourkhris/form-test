@@ -1,16 +1,32 @@
-@import "./assets/css/normalize.css";
 @import "./assets/css/webflow.css";
-@import "./assets/css/zenith-mtn.webflow.css";
+@import "./assets/css/style.css";
 
-.app-body{
-  font-family: Poppins, sans-serif;
+.app-body {
+  font-family: "Mulish", sans-serif;
 }
 
-.radio-div{
+.radio-div {
   margin-bottom: 50px;
 }
 
-.textfield-control{
+.textfield-control {
   width: 100% !important;
   margin-bottom: 40px !important;
+}
+
+.header-btn {
+  background: rgba(6, 79, 75, 1);
+  color: white;
+  border-radius: 4px;
+  padding: 0.8rem 1.2rem;
+}
+
+label {
+  top: -12px !important;
+  background: white;
+  padding: 10px !important;
+}
+
+input [type="checkbox"] {
+  color: red !important;
 }
